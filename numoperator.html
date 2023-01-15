@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>numberoperator</title>
+</head>
+<body>
+   <script>
+       let inp1=parseInt(prompt("enter the value 1"));
+       let inp2=parseInt(prompt("enter the value 2"));
+       let operator=prompt("enter the operator:");
+	   if(operator==="+"){
+	        var sum1= add(inp1,inp2)
+			console.log(sum1);
+			 }
+	    else if(operator==="-"){
+		    var sum2= sub(inp1,inp2)
+			console.log(sum2);
+			}
+		else if(operator==="*"){
+		    var sum3= multi(inp1,inp2)
+			console.log(sum3);
+			}
+		else if(operator==="/"){
+		    var sum4= division(inp1,inp2)
+			console.log(sum4);
+			}
+			 
+	   function add(a,b){
+		   let c=a+b;
+		   return c;
+		   }
+		function sub(d,e){
+		   let f=d-e;
+		   return f;
+		   }
+		function multi(g,h){
+		   let i=g*h;
+		   return i;
+		   }
+		function division(v,u){
+		   let s=v/u;
+		   return s;
+		   }
+		   
+   </script>
+</body>
+</html>
